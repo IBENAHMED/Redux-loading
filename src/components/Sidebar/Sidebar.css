@@ -1,0 +1,22 @@
+.Sidebar {
+    height: calc(100vh - 56px);
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    text-align: center;
+}
+
+.Sidebar ul li {
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    background-color: rgba(180, 105, 62, 0.662);
+    cursor: pointer;
+}
+
+.Sidebar ul li:hover {
+    background-color: rgba(180, 105, 62, 0.782);
+}
